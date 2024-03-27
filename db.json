@@ -1,0 +1,128 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "name": "ibrahim mohamed",
+      "email": "ibrahim@mail.com",
+      "phone": "01284954021",
+      "password": "123456"
+    },
+    {
+      "name": "yousef",
+      "email": "yousef@mail.com",
+      "phone": "01284954021",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "clinics": [
+    {
+      "id": 1,
+      "name": "SlimFit Clinic",
+      "image": "assets/images/slim-fit.webp",
+      "location": "123 Main Street, Cityville, USA",
+      "working_hours": {
+        "Sunday": "9:00 AM - 6:00 PM",
+        "Monday": "9:00 AM - 8:00 PM",
+        "Tuesday": "9:00 AM - 8:00 PM",
+        "Wednesday": "9:00 AM - 8:00 PM",
+        "Thursday": "9:00 AM - 8:00 PM",
+        "Friday": "Closed",
+        "Saturday": "9:00 AM - 4:00 PM"
+      },
+      "offers": [
+        {
+          "name": "Weight Loss Package",
+          "price": "$200",
+          "duration": "4 weeks"
+        },
+        {
+          "name": "Body Sculpting Session",
+          "price": "$100",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "HealthyLiving Clinic",
+      "image": "assets/images/living.png",
+      "location": "456 Oak Avenue, Townsville, USA",
+      "working_hours": {
+        "Sunday": "Closed",
+        "Monday": "10:00 AM - 6:00 PM",
+        "Tuesday": "10:00 AM - 6:00 PM",
+        "Wednesday": "10:00 AM - 6:00 PM",
+        "Thursday": "10:00 AM - 6:00 PM",
+        "Friday": "10:00 AM - 6:00 PM",
+        "Saturday": "9:00 AM - 2:00 PM"
+      },
+      "offers": [
+        {
+          "name": "Nutrition Consultation",
+          "price": "$50",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Fitness Training Package",
+          "price": "$300",
+          "duration": "8 weeks"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "FitZone Wellness Center",
+      "image": "assets/images/fitzone.jpeg",
+      "location": "789 Elm Street, Villagetown, USA",
+      "working_hours": {
+        "Sunday": "10:00 AM - 5:00 PM",
+        "Monday": "9:00 AM - 7:00 PM",
+        "Tuesday": "9:00 AM - 7:00 PM",
+        "Wednesday": "9:00 AM - 7:00 PM",
+        "Thursday": "9:00 AM - 7:00 PM",
+        "Friday": "9:00 AM - 7:00 PM",
+        "Saturday": "9:00 AM - 4:00 PM"
+      },
+      "offers": [
+        {
+          "name": "Weight Loss Bootcamp",
+          "price": "$150",
+          "duration": "6 weeks"
+        },
+        {
+          "name": "Personalized Meal Plan",
+          "price": "$75",
+          "duration": "2 weeks"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SlimPro Clinic",
+      "image": "assets/images/slimpro.jpeg",
+      "location": "321 Pine Avenue, Hamletville, USA",
+      "working_hours": {
+        "Sunday": "Closed",
+        "Monday": "8:00 AM - 6:00 PM",
+        "Tuesday": "8:00 AM - 6:00 PM",
+        "Wednesday": "8:00 AM - 6:00 PM",
+        "Thursday": "8:00 AM - 6:00 PM",
+        "Friday": "8:00 AM - 6:00 PM",
+        "Saturday": "9:00 AM - 3:00 PM"
+      },
+      "offers": [
+        {
+          "name": "Detoxification Program",
+          "price": "$250",
+          "duration": "3 weeks"
+        },
+        {
+          "name": "Group Fitness Classes",
+          "price": "$80",
+          "duration": "1 month"
+        }
+      ]
+    }
+  ]
+}
