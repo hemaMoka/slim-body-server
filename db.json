@@ -313,5 +313,13 @@
 
 
 
-]
+],
+  "card":[
+      {
+    "user_id": 2,
+    "product_id": 3,
+    "count": 1,
+    "id": 3
+  }
+  ]
 }
