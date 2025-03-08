@@ -15,114 +15,303 @@
       "id": 2
     }
   ],
-  "clinics": [
-    {
-      "id": 1,
-      "name": "SlimFit Clinic",
-      "image": "assets/images/slim-fit.webp",
-      "location": "123 Main Street, Cityville, USA",
-      "working_hours": {
-        "Sunday": "9:00 AM - 6:00 PM",
-        "Monday": "9:00 AM - 8:00 PM",
-        "Tuesday": "9:00 AM - 8:00 PM",
-        "Wednesday": "9:00 AM - 8:00 PM",
-        "Thursday": "9:00 AM - 8:00 PM",
-        "Friday": "Closed",
-        "Saturday": "9:00 AM - 4:00 PM"
-      },
-      "offers": [
-        {
-          "name": "Weight Loss Package",
-          "price": "$200",
-          "duration": "4 weeks"
+ "products":[
+       {
+        "id": 1,
+        "image_path": "https://cdn.salla.sa/lWzKD/lglefFGWTNU6626nYII53bKEdx8AJ9sWtTABJxzh.jpg",
+        "title": "ذرة صفراء مجروشة",
+        "description":"توفر شركة النجم الأزرق الدولية للاعلاف الذرة الصفراء المجروشة، والتي تُعد أحد المكونات الأساسية للذرة الصفراء. تأتي على شكل مسحوق خشن وتُستخدم في العديد من الصناعات الغذائية والمنتجات المختلفة",
+        "price":300
+       },
+       {
+        "id": 2,
+        "image_path": "https://cdn.salla.sa/lWzKD/0HxjpLgV1rvzfSaj7JsODapkdeh66RELmYatKdnj.jpg",
+        "title": "الخلطة الماسية",
+        "description":"طعام بهجة الماسية للحمام",
+        "price":65
+       },
+       {
+        "id": 3,
+        "image_path": "https://cdn.salla.sa/lWzKD/25dc33a0-bcc1-44f7-afa5-a9412860fc66-692.72727272727x1000-dpdUznBDBzU7VpMVf6q8IAdLIBAsLNoppUqwbz7q.jpg",
+        "title": "مشكل أصفر",
+        "description":"مشكلات الطيور من شركة النجم الأزرق",
+        "price":55
+       },
+       {
+        "id": 4,
+        "image_path": "https://cdn.salla.sa/lWzKD/ea3fe33c-7be8-4e3c-84dc-ae8340520345-692.72727272727x1000-arDdjz6jOeiEsrypcMvZx0Lw46ccfVGLAGuy5FS5.jpg",
+        "title": "أراسكو حمام",
+        "description":"أراسكو حمام بروتين 17% (50 كجم) - شركة النجم الأزرق الدولية للأعلاف",
+        "price":90
+       },
+       {
+        "id": 5,
+        "image_path": "https://cdn.salla.sa/lWzKD/3cd78436-6bc6-4bc4-b1a2-63e9f9f94b35-692.72727272727x1000-rSuhLhJkjH9NpVjkdAFK8gxGVSZICtSLI9qD4zHL.jpg",
+        "title": "شوفان مقشور",
+        "description":"شوفان مقشور من شركة النجم الازرق الغذاء المتكامل للطيور",
+        "price":130
+       },
+       {
+        "id": 6,
+        "image_path": "https://cdn.salla.sa/lWzKD/6f897a08-c669-4ca2-98a2-892930ef89fb-692.72727272727x1000-SQXfhv0y2o4iQ4dEdmkgDgTuQ8XdjKvAvsqKWwCA.jpg",
+        "title": "شوفان مضغوط",
+        "description":"أحد الأطعمة المتكاملة التي تلبي جميع احتياجات الطيور",
+        "price":100
+       },
+       {
+        "id": 7,
+        "image_path": "https://cdn.salla.sa/lWzKD/e1449b12-52e2-499a-a467-9f161392c710-703.7037037037x1000-kLdCFSx4KjmWDCOaE1XYR86t7GU4AobdkclbQAgD.jpg",
+        "title": "بهجه الخلطة البلجيكية",
+        "description":"عملت بهجه علي توفير طعام لحمام الزينة بأجود أنواع البذور الزيتية والحبوب الطبيعية التى تدعم صحة",
+        "price":75
+       },
+       {
+        "id": 8,
+        "image_path": "https://cdn.salla.sa/lWzKD/7cf11a9b-fb1c-4d83-b106-b915828492dc-709.62199312715x1000-D3MelxhayDmPfXscDTrFtu5KfjW8nsP9aeNmgtu9.png",
+        "title": "بهجه الخلطة الاقتصادية",
+        "description":"الخلطة الاقتصادية للطيور الحرة",
+        "price":50
+       },
+       {
+        "id": 9,
+        "image_path": "https://cdn.salla.sa/lWzKD/4101e000-71a9-4f18-87bb-f2417398f8b5-654.81352992194x1000-ZfLp4XivCQB147JQEiAPWxMreziFHob6nebHcGiD.jpg",
+        "title": "بهجه الخلطة الكلاسيكية",
+        "description":"الخلطة الاقتصادية للطيور الحرة",
+        "price":40
+       },
+       {
+        "id": 10,
+        "image_path": "https://cdn.salla.sa/lWzKD/FgpeEzYYmLfxMb024wCN89OIv5KhM20zKeItTnld.jpg",
+        "title": "مشكل شفاف",
+        "description":"مشكل شفاف من شركة النجم الأزرق الدولية للأعلاف* هو أحد أفضل أنواع بروتينات الحمام المتوفرة، ويُعد غذاء متكامل يحتوي على جميع العناصر الأساسية التي تحتاجها الطيور من البروتينات والطاقة",
+        "price":55
+       },
+       {
+        "id": 11,
+        "image_path": "https://cdn.salla.sa/lWzKD/QkDEvLU6lxKI25uYWIfrVbBhRU2JfsfSC4IPYkWL.jpg",
+        "title": "بذر دوار الشمس (بذر صغير)",
+        "description":"بذور دوار الشمس من شركة النجم الأزرق الدولية للأعلاف* هي غذاء مثالي غني بالطاقة، مخصص لتلبية احتياجات الطيور والحيوانات الأليفة من العناصر الغذائية الأساسية. تعتبر هذه البذور خيارًا ممتازًا للطيور",
+        "price":30
+       },
+       {
+        "id": 12,
+        "image_path": "https://cdn.salla.sa/lWzKD/m1Qs0cPRZqXTwD6EggEiJ3cW2aYcPMwT4yWz0gRx.jpg",
+        "title": "بذر دوار الشمس (بذر كبير)",
+        "description":"بذور دوار الشمس من شركة النجم الأزرق الدولية للأعلاف* هي غذاء عالي الطاقة، مثالي للطيور والحيوانات الأليفة والطيور البرية. تتميز هذه البذور بحجم كبير وتوفر طاقة جيدة للحفاظ على صحة الطيور",
+        "price":50
+       },
+       {
+        "id": 13,
+        "image_path": "https://cdn.salla.sa/lWzKD/8f37f999-a2f9-405e-a5cf-f5fe614e6c7c-692.72727272727x1000-cpOq4DB1hXynxoTqhgNRoIE4LLTLs01Upc2EYvnH.jpg",
+        "title": "دخن اصفر",
+        "description":"حبوب الدخن الصفراء* هي واحدة من أكثر البذور المحببة للطائر البادجي والكروان، وتعتبر من العناصر الغذائية الأساسية التي تحسن صحة الطيور بشكل عام، من خلال تعزيز جلدها وريشها.",
+        "price":35
+       },
+       {
+        "id": 14,
+        "image_path": "https://cdn.salla.sa/lWzKD/jVqiy92FYpO50az43mTvQUAaekPHpwJsSlRKRPff.jpg",
+        "title": "الوسام حمام بروتين 13%",
+        "description":"علف الوسام حمام بروتين 13% (50 كجم)* هو منتج متميز من شركة النجم الأزرق الدولية للأعلاف، مصمم خصيصًا لتلبية احتياجات تربية وتسمين الحمام. يحتوي هذا العلف على تركيبة متوازنة تساهم في تحسين صحة الحمام وزيادة نموه، مما يجعله مناسبًا لكل من المشاريع المتخصصة في تربية الحمام والمربين الهواة",
+        "price":45
+       },
+       {
+        "id": 15,
+        "image_path": "https://cdn.salla.sa/lWzKD/TM9pl7Mx9r97TRv2HMuZpz9GqTJ8LChIjeCfu923.jpg",
+        "title": "مشكل حمام زاجل مسافات",
+        "description":"أعلاف الحمام المركزة من شركة سنابل الديرة",
+        "price":75
+       },
+       {
+        "id": 16,
+        "image_path": "https://cdn.salla.sa/lWzKD/lglefFGWTNU6626nYII53bKEdx8AJ9sWtTABJxzh.jpg",
+        "title": "ذرة صفراء مجروشة",
+        "description":"توفر شركة النجم الأزرق الدولية للاعلاف الذرة الصفراء المجروشة، والتي تُعد أحد المكونات الأساسية للذرة الصفراء. تأتي على شكل مسحوق خشن وتُستخدم في العديد من الصناعات الغذائية والمنتجات المختلفة",
+        "price":300
+       },
+       {
+        "id": 17,
+        "image_path": "https://cdn.salla.sa/lWzKD/lFsJQVoTrEXE7lxDeX9XXWY7lfQn2FRB1RswBZ8K.jpg",
+        "title": "ذرة صفراء حب",
+        "description":"شركة النجم الأزرق الدولية للأعلاف تلتزم بتوفير أفضل أنواع الذرة الصفراء لتلبية احتياجات المواشي في عمليات التسمين. تعتبر الذرة الصفراء من أهم العناصر الغذائية التي تسهم في تحسين صحة ونمو المواشي،",
+        "price":300
+       },
+       {
+        "id": 18,
+        "image_path": "https://cdn.salla.sa/lWzKD/C95YXUQnKn0rqd5QNskxJCtEblyvyMY1oVlbHZNh.jpg",
+        "title": "دقة فول الجيل العربي",
+        "description":"دقة الفول للأغنام والماعز",
+        "price":200
+       },
+       {
+        "id": 19,
+        "image_path": "https://cdn.salla.sa/lWzKD/1xQFe70IBSltaOxC24TfEQGOojb02yDbmKOhA2ON.jpg",
+        "title": "مشكل أغنام الخلطة الذهبية",
+        "description":"مُشكل أغنام الخلطة الذهبية",
+        "price":105
+       },
+       {
+        "id": 20,
+        "image_path": "https://cdn.salla.sa/lWzKD/1xQFe70IBSltaOxC24TfEQGOojb02yDbmKOhA2ON.jpg",
+        "title": "مشكل أغنام الخلطة الذهبية",
+        "description":"مُشكل أغنام الخلطة الذهبية",
+        "price":58
+       },
+       {
+        "id": 21,
+        "image_path": "https://cdn.salla.sa/lWzKD/zVSfXezAkFgDocVNlWwjn92802i79CiqnaEAhyPz.jpg",
+        "title": "فيدكو علف أغنام",
+        "description":"علف فيدكو للماشية",
+        "price":90
+       },
+       {
+        "id":22,
+        "image_path": "https://cdn.salla.sa/lWzKD/guF5w0vVlgXaag1HzBoGpM2whfy3P9dXQWCM3Acf.jpg",
+        "title": "الوسام حملان علف أغنام",
+        "description":"أعلاف الأغنام المركزة من شركة الوسام",
+        "price":70
+       },
+       {
+        "id": 23,
+        "image_path": "https://cdn.salla.sa/lWzKD/guF5w0vVlgXaag1HzBoGpM2whfy3P9dXQWCM3Acf.jpg",
+        "title": "الوسام حملان علف أغنام",
+        "description":"أعلاف الأغنام المركزة من شركة الوسام",
+        "price":80
+       },
+       {
+        "id": 24,
+        "image_path": "https://cdn.salla.sa/lWzKD/zyupDrpFQWjGlUCuNO1AhyefawUhqz9fvmpoTvSG.jpg",
+        "title": "أراسكو الوافي",
+        "description":"أراسكو الوافي 13%",
+        "price":65
+       },
+       {
+        "id": 25,
+        "image_path": "https://cdn.salla.sa/lWzKD/198c589c-a926-4c60-ac84-fb923d87b848-787x1000-kwQrZ9nlVK5zLyWJNWn4Wqt7UTxwBjS0EpAxC9Lt.jpg",
+        "title": "صوامع نفّاع للمواشي",
+        "description":"علف تسمين الماشية المكعب (الكبير) من نفّاع",
+        "price":90
+       },
+       {
+        "id": 26,
+        "image_path": "https://cdn.salla.sa/lWzKD/uVFqIpjPD604YxeEtNlEjbOChjQKx216w7GOug3y.jpg",
+        "title": "مكعبات شعير اراسكو",
+        "description":"مكعبات شعير أراسكو من شركة النجم الأزرق الدولية للأعلاف",
+        "price":60
+       },
+       {
+        "id": 27,
+        "image_path": "https://cdn.salla.sa/lWzKD/cAQVSUV4BtgirZK0WGInOikDmhenTAbsNqAXGz1i.jpg",
+        "title": "نخالة",
+        "description":"نخالة من شركة النجم الأزرق الدولية للأعلاف",
+        "price":75
+       },
+       {
+        "id": 28,
+        "image_path": "https://cdn.salla.sa/lWzKD/67ac36af-59e3-404d-8dba-4384541cdf34-692x1000-zKl6vTr9ILNcrLxY1rNRI0DGWP09e6ItbrZwLZXE.jpg",
+        "title": "أراسكو حملان بلس تسمين",
+        "description":"أراسكو حملان بلس تسمين بروتين 24%",
+        "price":88
+       },
+       {
+        "id": 29,
+        "image_path": "https://cdn.salla.sa/lWzKD/Y5UFX9x2dTr6DhAbzc2qDryTQQAImXbRWdJMRTYh.jpg",
+        "title": "المراح علف مواشي و أبل",
+        "description":"علف المراح للإبل والضأن والماعز من شركة النجم الأزرق الدولية للأعلاف",
+        "price":80
+       },
+       {
+        "id": 30,
+        "image_path": "https://cdn.salla.sa/lWzKD/274bc45e-4d81-41a6-9629-8eb59da7d200-692.72727272727x1000-FlJzwEhr55yonK9FbNX3ZLLNxvRNcKOaKOf8p0o5.jpg",
+        "title": "شعير حب",
+        "description":"شعير مستورد حب - 50 كجم من شركة النجم الأزرق الدولية للأعلاف",
+        "price":90
+       },
+       {
+        "id": 31,
+        "image_path": "https://cdn.salla.sa/lWzKD/f13e8840-5394-4960-941e-ac01b1bc6507-692.72727272727x1000-ti4e0mMSfPIG6F1hCJah6urY7WSh6eZ3B8Zkfj0f.jpg",
+        "title": "شعير مجروش",
+        "description":"شعير مجروش - 40 كجم من شركة النجم الأزرق الدولية للأعلاف",
+        "price":57
+       },
+       {
+        "id": 32,
+        "image_path": "https://cdn.salla.sa/lWzKD/ABBSdGNBGvDjDwsox7hGwI2loLB4S5PWaC2jxqqP.jpg",
+        "title": "الوسام علف أغنام تربية 14%",
+        "description":"أعلاف الأغنام المركزة من شركة الوسام - 50 كجم",
+        "price":65
+       },
+       {
+        "id": 33,
+        "image_path": "https://cdn.salla.sa/lWzKD/gJftXbEidjgEJt9YbvtVV8nE0oy4McfUZMgDuLIo.jpg",
+        "title": "الوسام علف خيول",
+        "description":"أعلاف الوسام للخيول - 50 كجم",
+        "price":80
+       },
+       {
+        "id": 34,
+        "image_path": "https://cdn.salla.sa/lWzKD/4WRJSEtWpHUvc6aGHdHZA09vS2hTibSmeHRwPLOy.jpg",
+        "title": "رويال علف خيل",
+        "description":"رويال علف خيل 15.4% - 40 كجم",
+        "price":90
+       },
+       {
+        "id": 35,
+        "image_path": "https://cdn.salla.sa/lWzKD/EAx2rc0KfCl3FbN5VfoVGsPVQMAVLxTRjfkPhsas.jpg",
+        "title": "أراسكو علف خيل صهيل",
+        "description":"أعلاف أراسكو للخيل - 50 كجم",
+        "price":95
+       },
+       {
+        "id": 36,
+        "image_path": "https://cdn.salla.sa/lWzKD/fsRiKeG588ND8jHL1Nt7mD7t3zkIiz76Gghg2juP.jpg",
+        "title": "أراسكو علف خيل جواد",
+        "description":"أعلاف أراسكو للخيل - 50 كجم",
+        "price":88
+       },
+       {
+        "id": 37,
+        "image_path": "https://cdn.salla.sa/lWzKD/kMGs7NCAZ8TQi06lW0yacMOj66hw9C1ru59mMX69.jpg",
+        "title": "اراسكو خيول مكس (سهم)",
+        "description":"تعتبر أعلاف أراسكو للخيل التغذية المتوازنة بطريقة علمية ومناسبة للمناخ المَعني إحدى المكوِّنات الحاسمة للعناية بالخيل ذات الدم الحار و أيضا الأعلاف التي تحمل العلامة التجارية التي يفضلها مالكو ومدرِّبو",
+        "price":120
+       },
+       {
+        "id": 38,
+        "image_path": "https://cdn.salla.sa/lWzKD/bvoy0hPkXU4cMe8c6MUJNGoPmh4WNJ8kFRBIMHyq.jpg",
+        "title": "أراسكو لاحم بادئ ناعم",
+        "description":"شركة أراسكو تقدم أعلاف الدواجن المركزة والمتوازنة التي تلبية احتياجات مشاريع الدواجن المتخصصة والمربين الهواة على حد سواء. تم تصميم هذه التراكيب بعناية لتناسب مختلف مراحل نمو دواجن التسمين",
+        "price":100
+       },
+       {
+        "id": 39,
+        "image_path": "https://cdn.salla.sa/lWzKD/L8vnTph6IXMNn3f0YUEhPKL84ppnHpTnqIKE1OEl.png",
+        "title": "الوسام لاحم خشن",
+        "description":"شركة النجم الأزرق الدولية للأعلاف* تقدم منتج *الوسام لاحم خشن بروتين 21 %* كأحد التراكيب المتوازنة من أعلاف الدواجن التي تلبي احتياجات مشاريع الدواجن المتخصصة والمربين الهواة على حد سواء",
+        "price":120
+       },
+       {
+        "id": 40,
+        "image_path": "https://cdn.salla.sa/lWzKD/Z2sGQnInReH7oMt1wpDmJlTOnbKN0JQUu7wusky2.jpg",
+        "title": "مرام أرانب تسمين",
+        "description":"شركة *مرام* تسعى لتوفير أعلاف أرنب مركزة ومتوازنة تلبي احتياجات مشاريع تربية الأرانب المتخصصة والمربين الهواة. تم تصميم هذه التراكيب خصيصًا لتواكب مراحل النمو المختلفة للأرانب ",
+        "price":72
+       },
+       {
+       "id": 41,
+       "image_path": "https://cdn.salla.sa/lWzKD/4c652581-2047-42a4-becf-853e1e0372a0-692x1000-u7dT7FzoldWF0gwYHYF8IGFSPUyhvUjcr4euVPUJ.jpg",
+        "title": "علف أسماك بلطي (1 مل)",
+        "description":"علف أسماك بلطي (1 مل) هو منتج مخصص لتغذية أسماك البلطي، ويتميز بجودته العالية بفضل استخدام خامات محلية ومستوردة ممتازة، وتكنولوجيا متطورة في تصنيعه. يتناسب مع أسماك المياه العذبة",
+       "price":100
         },
-        {
-          "name": "Body Sculpting Session",
-          "price": "$100",
-          "duration": "1 hour"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "HealthyLiving Clinic",
-      "image": "assets/images/living.png",
-      "location": "456 Oak Avenue, Townsville, USA",
-      "working_hours": {
-        "Sunday": "Closed",
-        "Monday": "10:00 AM - 6:00 PM",
-        "Tuesday": "10:00 AM - 6:00 PM",
-        "Wednesday": "10:00 AM - 6:00 PM",
-        "Thursday": "10:00 AM - 6:00 PM",
-        "Friday": "10:00 AM - 6:00 PM",
-        "Saturday": "9:00 AM - 2:00 PM"
-      },
-      "offers": [
-        {
-          "name": "Nutrition Consultation",
-          "price": "$50",
-          "duration": "1 hour"
-        },
-        {
-          "name": "Fitness Training Package",
-          "price": "$300",
-          "duration": "8 weeks"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "FitZone Wellness Center",
-      "image": "assets/images/fitzone.jpeg",
-      "location": "789 Elm Street, Villagetown, USA",
-      "working_hours": {
-        "Sunday": "10:00 AM - 5:00 PM",
-        "Monday": "9:00 AM - 7:00 PM",
-        "Tuesday": "9:00 AM - 7:00 PM",
-        "Wednesday": "9:00 AM - 7:00 PM",
-        "Thursday": "9:00 AM - 7:00 PM",
-        "Friday": "9:00 AM - 7:00 PM",
-        "Saturday": "9:00 AM - 4:00 PM"
-      },
-      "offers": [
-        {
-          "name": "Weight Loss Bootcamp",
-          "price": "$150",
-          "duration": "6 weeks"
-        },
-        {
-          "name": "Personalized Meal Plan",
-          "price": "$75",
-          "duration": "2 weeks"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "SlimPro Clinic",
-      "image": "assets/images/slimpro.jpeg",
-      "location": "321 Pine Avenue, Hamletville, USA",
-      "working_hours": {
-        "Sunday": "Closed",
-        "Monday": "8:00 AM - 6:00 PM",
-        "Tuesday": "8:00 AM - 6:00 PM",
-        "Wednesday": "8:00 AM - 6:00 PM",
-        "Thursday": "8:00 AM - 6:00 PM",
-        "Friday": "8:00 AM - 6:00 PM",
-        "Saturday": "9:00 AM - 3:00 PM"
-      },
-      "offers": [
-        {
-          "name": "Detoxification Program",
-          "price": "$250",
-          "duration": "3 weeks"
-        },
-        {
-          "name": "Group Fitness Classes",
-          "price": "$80",
-          "duration": "1 month"
-        }
-      ]
-    }
-  ]
+       {
+         "id": 42,
+         "image_path": "https://cdn.salla.sa/lWzKD/Qw6Rls1gn3XrH6EbJuwSdh8FKEUGMN2PWAnW3YJS.jpg",
+        "title": "أراسكو علف أسماك 2 ملي",
+        "description":"تستمد كل ما فعله شركة أراسكو لتطوير قطاع تربية الأحياء المائية في أرضنا, من مهمتنا بصفتنا كشركة أراسكو تسعى لترشيد استهلاك المياه في إنتاج الغذاء. وتكتسب تربية أسماك المياه المالحة أهمية خاصة",
+         "price":85
+         }
+
+
+
+]
 }
